@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Feed</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="instagram-logo">
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="right-side">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Create new post
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Create new post</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Caption: <br>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Add the caption of your post here"
+                                    id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2"></label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">Publish</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Example split danger button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-gear"></i></button>
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="page">
+        <div class="iconos-medio">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                        data-bs-target="#pagina-principal" type="button" role="tab" aria-controls="home-tab-pane"
+                        aria-selected="true"><i class="fa-solid fa-table-cells" id="cells"></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i
+                            class="fa-solid fa-square" id="square"></i></button>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="pagina-principal" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+
+                <div class="container">
+                    <img src="https://i0.wp.com/paraisos.online/wp-content/uploads/2020/12/PLAYA-PARGUITO-1.jpg?fit=1300%2C865&ssl=1"
+                        alt="" class="sizing">
+                    <img src="https://assets-es.imgfoot.com/media/cache/1200x1200/vinicius-63f5376141063.jpg" alt=""
+                        class="sizing">
+                    <img src="https://www.micachorro.net/wp-content/uploads/2021/06/Pomsky-scaled.jpg" alt=""
+                        class="sizing">
+                    <img src="https://e.snmc.io/i/600/s/554ecf3c296ae06f37dab3c81c7aabcc/11023798/tainy-data-Cover-Art.jpg"
+                        alt="" class="sizing">
+                    <img src="https://i0.wp.com/paraisos.online/wp-content/uploads/2020/12/PLAYA-PARGUITO-1.jpg?fit=1300%2C865&ssl=1"
+                        alt="" class="sizing">
+                    <img src="https://assets-es.imgfoot.com/media/cache/1200x1200/vinicius-63f5376141063.jpg" alt=""
+                        class="sizing">
+                    <img src="https://www.micachorro.net/wp-content/uploads/2021/06/Pomsky-scaled.jpg" alt=""
+                        class="sizing">
+                    <img src="https://e.snmc.io/i/600/s/554ecf3c296ae06f37dab3c81c7aabcc/11023798/tainy-data-Cover-Art.jpg"
+                        alt="" class="sizing">
+                    <img src="https://i0.wp.com/paraisos.online/wp-content/uploads/2020/12/PLAYA-PARGUITO-1.jpg?fit=1300%2C865&ssl=1"
+                        alt="" class="sizing">
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+                <div class="cards-container hide">
+                    <div class="card">
+                        <header>
+                            <div class="description">
+                                Parguito
+                            </div>
+                            <div class="date">
+                                18/08
+                            </div>
+                        </header>
+                        <img src="https://i0.wp.com/paraisos.online/wp-content/uploads/2020/12/PLAYA-PARGUITO-1.jpg?fit=1300%2C865&ssl=1"
+                            alt="">
+                        <footer>
+                            <strong>100 likes</strong>
+                            <span>no caption needed</span>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <div class="description">
+                                WOW
+                            </div>
+                            <div class="date">
+                                18/08
+                            </div>
+                        </header>
+                        <img src="https://assets-es.imgfoot.com/media/cache/1200x1200/vinicius-63f5376141063.jpg"
+                            alt="">
+                        <footer>
+                            <strong>100 likes</strong>
+                            <span>no caption needed</span>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <div class="description">
+                                VJ7
+                            </div>
+                            <div class="date">
+                                18/08
+                            </div>
+                        </header>
+                        <img src="https://assets-es.imgfoot.com/media/cache/1200x1200/vinicius-63f5376141063.jpg"
+                            alt="">
+                        <footer>
+                            <strong>100 likes</strong>
+                            <span>no caption needed</span>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <div class="description">
+                                Playita
+                            </div>
+                            <div class="date">
+                                18/08
+                            </div>
+                        </header>
+                        <img src="https://i0.wp.com/paraisos.online/wp-content/uploads/2020/12/PLAYA-PARGUITO-1.jpg?fit=1300%2C865&ssl=1"
+                            alt="">
+                        <footer>
+                            <strong>100 likes</strong>
+                            <span>no caption needed</span>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <div class="description">
+                                Ballon D'Or
+                            </div>
+                            <div class="date">
+                                18/08
+                            </div>
+                        </header>
+                        <img src="https://assets-es.imgfoot.com/media/cache/1200x1200/vinicius-63f5376141063.jpg"
+                            alt="">
+                        <footer>
+                            <strong>100 likes</strong>
+                            <span>no caption needed</span>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <div class="description">
+                                Zeus
+                            </div>
+                            <div class="date">
+                                18/08
+                            </div>
+                        </header>
+                        <img src="https://www.micachorro.net/wp-content/uploads/2021/06/Pomsky-scaled.jpg" alt="">
+                        <footer>
+                            <strong>100 likes</strong>
+                            <span>no caption needed</span>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <div class="description">
+                                Margarita
+                            </div>
+                            <div class="date">
+                                18/08
+                            </div>
+                        </header>
+                        <img src="https://i0.wp.com/paraisos.online/wp-content/uploads/2020/12/PLAYA-PARGUITO-1.jpg?fit=1300%2C865&ssl=1"
+                            alt="">
+                        <footer>
+                            <strong>100 likes</strong>
+                            <span>no caption needed</span>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <div class="description">
+                                DATA
+                            </div>
+                            <div class="date">
+                                18/08
+                            </div>
+                        </header>
+                        <img src="https://e.snmc.io/i/600/s/554ecf3c296ae06f37dab3c81c7aabcc/11023798/tainy-data-Cover-Art.jpg"
+                            alt="">
+                        <footer>
+                            <strong>100 likes</strong>
+                            <span>no caption needed</span>
+                        </footer>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <div class="description">
+                                Pomsky
+                            </div>
+                            <div class="date">
+                                18/08
+                            </div>
+                        </header>
+                        <img src="https://www.micachorro.net/wp-content/uploads/2021/06/Pomsky-scaled.jpg" alt="">
+                        <footer>
+                            <strong>100 likes</strong>
+                            <span>no caption needed</span>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                ...</div>
+            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
+                tabindex="0">...</div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/8f6aad3baa.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

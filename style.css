@@ -1,0 +1,87 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px gray
+}
+
+.instagram-logo i {
+    font-size: 40px;
+}
+
+.iconos-medio{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.iconos-medio i{
+    font-size: 25px;
+    margin: 1rem;
+}
+
+.iconos-medio i:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: .5rem;
+}
+
+.sizing{
+    height: 400px;
+    width: 400px;
+    margin: 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.card {
+    width: 500px;
+    margin-top: 1.2rem;
+    box-shadow: 3px 3px 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+}
+
+.date{
+    color: gray;
+}
+
+/* .hide {
+    display: none;
+} */
+
+#container.show{
+    display: block;
+}
+
+#cards-container.show{
+    display: block;
+}
+
